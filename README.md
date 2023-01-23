@@ -12,16 +12,16 @@ Soit un jeu de données : $\left(\vec{X_i}, w_i\right)$ où $\vec{X_i}$ est le m
 Pour trouver un classificateur permettant de déârtager ces données, on suppose que $\left(\vec{X_i}, w_i\right)$  sont modélisés par des distributions; $\vec{X}: P$ et $w:Q$. On décrit ainsi le jeu de données par : $\left(\vec{X_i}, w_i\right) \approx  <P, Q>$. Durant la phase d'entraînement on essaye de déterminer la distribution sous-jacente.
 
 Parmi les classificateurs paramétrqiues nous nous pencherons ici sur :
-- [Les classificateurs bayésiens](/lab/tree/bayesian_classifier.ipynb)
-- [Les classificateurs bayésiens naïfs](/lab/tree/naive_bayes_classifier.ipynb)
+- [Les classificateurs bayésiens](/bayesian_classifier.ipynb)
+- [Les classificateurs bayésiens naïfs](/naive_bayes_classifier.ipynb)
 
 
 ## 2. Classificateurs non-paramétriques
 
-Le problème avec les modèles paramétriques est qu'ils dépendent des assomptions faites sur la distribution sous-jacente des données. On tente ici une approche différente avec des modèles dits *non-paramétriques*. On cherche une *consistence universelle*. On ne fait ainsi aucune hypothèse sur la distribution $<P, Q>$, mais l'on échantillonne depuis la probabilité postérieure. Plusieurs classificateurs non-paramétriques seront étudiés ici :
-- [Le "K-Nearest Neighbor"](/lab/tree/knn.ipynb)
-- [Les arbres K-dimensionnels](/lab/tree/k-d_trees.ipynb)
-- [Les arbres décisionnels](/lab/tree/decision_trees.ipynb)
-- [Les classificateurs linéaires](/lab/tree/linear_classifiers.ipynb)
+Le problème avec les modèles paramétriques est qu'ils dépendent des assomptions faites sur la distribution sous-jacente des données. On tente ici une approche différente avec des modèles dits *non-paramétriques*. On cherche une *consistence universelle*. On ne fait ainsi aucune hypothèse sur la distribution $\lt P, Q \gt$, mais l'on échantillonne depuis la probabilité postérieure. Plusieurs classificateurs non-paramétriques seront étudiés ici :
+- [Le "K-Nearest Neighbor"](/knn.ipynb)
+- [Les arbres K-dimensionnels](/k-d_trees.ipynb)
+- [Les arbres décisionnels](/decision_trees.ipynb)
+- [Les classificateurs linéaires](/linear_classifiers.ipynb)
 
-Finalement nous étuderions les [réseaux neuronaux](/lab/tree/NN.ipynb), et découvrirons les plus récents [réseaux neuronaux physiquement informés](/lab/tree/PINN.ipynb). Les *Notebooks* ici présents sont réalisés en utilisant mes supports de cours (Landoni) ainsi que les exemples de [Scikit-Learn](https://scikit-learn.org/stable/index.html). Pour davantage de détails sur les calculs, le livre [Pattern Classification by Richard O. Duda, David G. Stork, Peter E.Hart](https://www.amazon.it/Pattern-Classification-Richard-Duda/dp/0471056693) est parfois utilisé.
+Finalement nous étuderions les [réseaux neuronaux](/NN.ipynb), et découvrirons les plus récents [réseaux neuronaux physiquement informés](/PINN.ipynb). Les *Notebooks* ici présents sont réalisés en utilisant mes supports de cours (Landoni) ainsi que les exemples de [Scikit-Learn](https://scikit-learn.org/stable/index.html). Pour davantage de détails sur les calculs, le livre [Pattern Classification by Richard O. Duda, David G. Stork, Peter E.Hart](https://www.amazon.it/Pattern-Classification-Richard-Duda/dp/0471056693) est parfois utilisé.
